@@ -4,9 +4,6 @@ int a;
 class Abstraction{
     public:
         virtual void area(int a)=0;
-        Abstraction(){
-            cout<<"The virtual function of parent class:"<<endl;
-        }
 };
 class Circle:public Abstraction{
     public:
